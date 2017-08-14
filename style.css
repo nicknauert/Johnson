@@ -25,7 +25,6 @@ lblue rgb(45, 187, 200);
 ul{
   display: flex;
   flex-flow: row wrap;
-
 }
 
 li {
@@ -46,6 +45,7 @@ li>a>img {
   margin: 0 10px;
   width: 150px;
   height: 150px;
+  overflow: hidden;
 }
 
 #tl {
@@ -64,6 +64,7 @@ li>a>img {
   border-left: 25px solid #cd7815;
   transition: .5s ease;
   padding: 20px;
+  font-size: 20px;
 }
 
 #tr {
@@ -77,6 +78,7 @@ li>a>img {
 }
 
 #tr:hover {
+  font-size: 20px;
   background-color: rgba(45, 120, 113, 0.20);
   border-right: 25px solid #1b4642;
   border-top: 25px solid #1b4642;
@@ -92,6 +94,7 @@ li>a>img {
 }
 
 #bl:hover {
+  font-size: 20px;
   background-color: rgba(200, 51, 63, 0.20);
   border-bottom: 25px solid rgb(149, 51, 59);
   border-left: 25px solid rgb(149, 51, 59);
@@ -110,6 +113,7 @@ li>a>img {
 }
 
 #br:hover {
+  font-size: 20px;
   background-color: rgba(45, 187, 200, 0.20);
   border-bottom: 25px solid #228c96;
   border-right: 25px solid #228c96;
@@ -120,38 +124,3 @@ li>a>img {
 #br>a>img {
   float: left;
 }
-
-#br:hover {
-  transition: .6s;
-}
-
-
-/*main page styles*/
-
-
-
-
-
-
-
-/*
-header on main page will take up the whole page and have four quadrants, one for each dev
-
-animation: "Team Johnson" flashes on page load
-
-photos, names/links and brief by-line are clustered near center of page
-
-background of quadrants: ...???
-*/
-/**/
-
-
-/*individual page styles*/
-
-/*
-header pinned to top
-top half of page is preview of project;
-photo in the middle (circle!);
-bottom half: "about me" section with brief bio, interests, specialties, etc; "links" section with personal site, Twitter, GitHub, etc.
-
-*/
