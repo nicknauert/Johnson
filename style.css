@@ -62,7 +62,7 @@ li>a>img {
   background-color: rgba(237, 167, 85, 0.20);
   border-top: 25px solid #cd7815;
   border-left: 25px solid #cd7815;
-  transition: .5s ease;
+  transition: .3s ease;
   padding: 20px;
   font-size: 20px;
 }
@@ -82,7 +82,7 @@ li>a>img {
   background-color: rgba(45, 120, 113, 0.20);
   border-right: 25px solid #1b4642;
   border-top: 25px solid #1b4642;
-  transition: .5s ease;
+  transition: .3s ease;
   padding: 20px;
 }
 
@@ -98,7 +98,7 @@ li>a>img {
   background-color: rgba(200, 51, 63, 0.20);
   border-bottom: 25px solid rgb(149, 51, 59);
   border-left: 25px solid rgb(149, 51, 59);
-  transition: .5s ease;
+  transition: .3s ease;
   padding: 20px;
 }
 
@@ -117,7 +117,7 @@ li>a>img {
   background-color: rgba(45, 187, 200, 0.20);
   border-bottom: 25px solid #228c96;
   border-right: 25px solid #228c96;
-  transition: .5s ease;
+  transition: .3s ease;
   padding: 20px;
 }
 
